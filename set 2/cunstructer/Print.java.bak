@@ -1,0 +1,26 @@
+class  Print
+{
+	public static int f=20;
+	int a;
+	int b;
+	Print(int d,int c)
+	{
+		System.out.println(a);
+		System.out.println(b);
+	}
+	void Test()
+	{
+		//System.out.println(a);
+		//System.out.println(b);
+	}
+	public static void main(String [] args)
+	{
+		 Print p=new  Print(10,30);
+		 System.out.println(p.f);
+		p.Test();
+		print p1=new print(20,45);
+		System.out.println(p1.f);
+	}
+
+
+}

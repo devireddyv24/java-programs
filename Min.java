@@ -1,0 +1,39 @@
+import java.util.*;
+class Min
+{
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the value of lenth");
+		int a=sc.nextInt();
+		int b[]=new int[a];
+			for(int i=0;i<a;i++)
+		{
+			System.out.println("enter the value of array");
+			b[i]=sc.nextInt();
+		}
+		for(int i=0;i<a;i++)
+		{
+			System.out.println(" ");
+			System.out.println(b[i]);
+		}
+		int min=b[0];
+		int max=min;
+		for(int i=0;i<a;i++)
+		{
+			if(min>b[i])
+			{
+				min=b[i];
+			}
+				if(max<b[i])
+			{
+					max=b[i];
+			}
+			
+		}
+		System.out.println(max);
+		System.out.println(min);
+	}
+		
+
+}

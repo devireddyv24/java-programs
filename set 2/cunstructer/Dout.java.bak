@@ -1,0 +1,14 @@
+class Dout 
+{
+	int a;
+	int b;
+	Dout(int a,int b)
+	{
+		a=a;b=b;
+	}
+	public static void main(String [] args)
+	{
+		Dout d=new Dout(10,20);
+		System.out.println(d.a+d.b);
+	}
+}

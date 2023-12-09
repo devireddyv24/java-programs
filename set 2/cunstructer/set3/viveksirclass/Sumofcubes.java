@@ -1,0 +1,23 @@
+import java.util.*;
+class  Sumofcubes
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the value of a");
+		int a=s.nextInt();
+		int count=0;
+		int sum=0;
+		while(a!=0)
+		{
+	int digit=a%10;
+	if(digit%2==0)
+			{
+		sum=sum+(digit*digit*digit);
+			}
+		a=a/10;
+		}
+		System.out.println(sum);
+
+	}
+}

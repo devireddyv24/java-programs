@@ -1,0 +1,32 @@
+import java.util.*;
+class Acurence
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+			System.out.println("enter the value of an array");
+		int a=sc.nextInt();
+		int[] b=new int [a];
+			char[] c=new char[a];
+			for(int i=0;i<a;i++)
+		{
+			b[i]=sc.nextInt();
+		}
+		for(int i=0;i<a;i++)
+		{
+			int count=1;
+			for(int j=i+1;j<a;j++)
+			{
+				if(b[i]==b[j])
+				{
+					count++;
+					c[j]='a';
+				}
+			}if(count>1&&c[i]!='a')
+			{
+				System.out.println(b[i]+"number of times is repeting is: "+count);
+			}
+				
+	}
+}
+}

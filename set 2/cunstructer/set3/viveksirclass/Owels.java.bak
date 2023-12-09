@@ -1,0 +1,24 @@
+import java.util.*;
+class  Owels
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the length of an array");
+		int size=sc.nextInt();
+		char[] a=new char[size];
+		for(int i=0;i<size;i++)
+		{System.out.println("enter the value of array");
+			a[i]=sc.next().charAt(i);
+		}
+		int count=0;
+      for(int i=0;i<size;i++)
+		{
+		  if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u')
+			{
+			  count++;
+			}
+		}
+		System.out.println("number of owels is :"+count);
+	}
+}

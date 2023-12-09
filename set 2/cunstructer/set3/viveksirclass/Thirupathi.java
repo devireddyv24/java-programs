@@ -1,0 +1,28 @@
+abstract class Thirupathi
+{
+	int a;
+	int c;
+	abstract public void test();
+	public void test1()
+	{
+		System.out.println("print the thirupathi class ");
+	}
+}
+abstract class A extends Thirupathi
+{
+	 public void test1()
+
+	{
+
+
+
+
+
+
+
+}
+	public void test()
+	{
+		System.out.println("enter the value of");
+	}
+}

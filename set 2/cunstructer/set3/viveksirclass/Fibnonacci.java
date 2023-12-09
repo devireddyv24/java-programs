@@ -1,0 +1,35 @@
+//fibnocie serices with prime numbers.
+class  Fibnonacci
+{
+	static int sum=0;
+	public static void main(String[] args) 
+	{int a=1;
+	System.out.println(a);
+int b=1;
+System.out.println(b);
+	int c;
+	while(b<=100)
+		{
+		//System.out.println(b);
+		c=a+b;
+		a=b;
+		b=c;
+		int count=0;
+		for(int i=2;i<=b/2;i++)
+			{
+			if(b%i==0)
+				{
+				count++;
+				}
+			}
+          if(count==0)
+			{
+			  System.out.println(b);
+			  sum=sum+b;
+		}
+		}
+		System.out.println(sum);
+
+		
+	}
+}

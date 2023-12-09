@@ -1,0 +1,28 @@
+class Digit 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+test();
+		public static void test()
+		{
+int [] a=new int[3];
+
+int n=234;
+int i=0;
+int digit;
+while(n>0)
+		{
+	digit=n%10;
+	System.out.println("number in digit "+digit);
+a[i]=digit;
+i++;
+n=n/10;
+		}
+		for(int j=0;j<a.length;j++)
+		{
+			System.out.println(a[j]);
+		}
+		}
+	}
+}

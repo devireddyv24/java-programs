@@ -1,0 +1,20 @@
+class fet
+{
+	fet()
+	{
+		System.out.println("print the constructor");
+	}
+		public static void test()
+		{
+			System.out.println("print the method test");
+		}
+	
+}
+class Practic extends fet
+{
+	public static void main(String [] args)
+	{
+		fet s=new fet();
+		s.test();
+	}
+}

@@ -1,0 +1,5 @@
+abstract class Vtest
+{
+	abstract int a;
+	int b=20;
+}

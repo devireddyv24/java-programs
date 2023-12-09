@@ -1,0 +1,36 @@
+//if elements of array if prime find cube of number if even we print square of number.
+import java.util.*;
+class Arr1
+{
+	public static void main(String[] args)
+	{
+		int a;int count;
+	Scanner sc=new Scanner(System.in);
+	a=sc.nextInt();
+	int b[]=new int[a];
+	for(int i=0;i<b.length;i++)
+	{
+		b[i]=sc.nextInt();
+	}
+	for(int i=0;i<b.length;i++)
+		{
+		count=0;
+		for(int j=2;j<=b[i]/2;j++)
+		{
+			if(b[i]%j==0)
+			{
+				count++;
+			}
+		}
+		if(count==0)
+		{
+			System.out.println("cube :"+(b[i]*b[i]*b[i]));
+		}
+		else if(b[i]%2==0)
+		{
+			System.out.println(b[i]*b[i]);
+		}
+
+}
+}
+}

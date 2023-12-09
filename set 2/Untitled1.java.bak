@@ -1,0 +1,8 @@
+/*1.	Wap to count the digits of a number.*/
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
